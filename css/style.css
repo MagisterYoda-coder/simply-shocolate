@@ -429,20 +429,15 @@ padding-right: 36px;
 .error-svg {
   position: absolute;
   right: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 16px;
-  height: 16px;
+  top: 32px;
 
   pointer-events: none;
 }
+
 .error-svg-textarea {
   position: absolute;
-  right: 14px;
-  top: 14px;
-
-  width: 16px;
-  height: 16px;
+right: 14px;
+top: -65px;
  
   pointer-events: none;
 }
@@ -636,13 +631,16 @@ gap: 12px;
 .scroll-down:focus .scroll-down-wrapper,
 .scroll-down:active .scroll-down-wrapper {
   background-color: #fd9222;
+ 
+}
+.arrow-down {
+ color:#fd9222 ;
 }
 
-.scroll-down:hover .scroll-down-icon,
-.scroll-down:focus .scroll-down-icon,
-.scroll-down:active .scroll-down-icon {
-  fill: #fafafa;
-  stroke: #fafafa;
+.scroll-down:hover .arrow-down,
+.scroll-down:focus .arrow-down,
+.scroll-down:active .arrow-down {
+ color:#ffff;
   
 }
 
@@ -1005,4 +1003,19 @@ font-weight: 600;
 font-size: 14px;
 text-align: center;
 color: #fff;
+}
+/* ===================icons=============== */
+.social-svg {
+  color: white;
+}
+.social-svg:focus,
+.social-svg:hover,
+.social-svg:active {
+  color: #fd9222;;
+}
+
+.social-item:hover,
+.social-item:focus,
+.social-item:active {
+  border-color: #fd9222;
 }
