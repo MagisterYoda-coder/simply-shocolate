@@ -103,7 +103,7 @@
               scroll down
               <span class="scroll-down-wrapper"
                 ><svg class="scroll-down-icon" width="16" height="16">
-                  <use href="./images/symbol-defs.svg#icon-arrow-down" />
+                  <use href="./images/symbol-defs2.svg#icon-arrow-down" />
                 </svg>
               </span>
             </a>
@@ -344,7 +344,10 @@
               />
               <source
                 media="(max-width: 767.98px)"
-                srcset="./images/image_mob.webp 1x, ./images/image_mob@2x.webp"
+                srcset="
+                  ./images/image_mob.webp    1x,
+                  ./images/image_mob@2x.webp 2x
+                "
               />
 
               <img
@@ -563,7 +566,7 @@
           </h2>
           <div class="comment-wrapper">
             <img
-              class="foto"
+              class="foto loved-img"
               width="80"
               height="80"
               src="./images/comments/Ellipse.png"
@@ -572,7 +575,6 @@
                 ./images/comments/Ellipse@2x.webp 2x
               "
               alt="Victoria Dobrzhanska"
-              class="loved-img"
             />
             <h3 class="choco-lovers">Victoria Dobrzhanska</h3>
             <p class="persona-text">
@@ -617,7 +619,7 @@
             <form class="review-form">
               <label class="form-field">
                 <span class="input-label">Name</span>
-                <div class="input-wrapper">
+                <span class="input-wrapper">
                   <svg class="input-icon" width="18" height="18">
                     <use href="images/symbol-defs.svg#icon-user"></use>
                   </svg>
@@ -635,12 +637,12 @@
                       height="14"
                     ></use>
                   </svg>
-                </div>
+                </span>
               </label>
 
               <label class="form-field">
                 <span class="input-label">Email</span>
-                <div class="input-wrapper">
+                <span class="input-wrapper">
                   <svg
                     class="input-icon"
                     width="18"
@@ -675,12 +677,12 @@
                       height="14"
                     ></use>
                   </svg>
-                </div>
+                </span>
               </label>
 
               <label class="form-field">
                 <span class="input-label">Phone</span>
-                <div class="input-wrapper">
+                <span class="input-wrapper">
                   <svg class="input-icon" width="18" height="18">
                     <use href="images/symbol-defs.svg#icon-phone"></use>
                   </svg>
@@ -692,12 +694,12 @@
                       height="14"
                     ></use>
                   </svg>
-                </div>
+                </span>
               </label>
 
               <label class="form-field form-comment">
                 <span class="input-label">Comment</span>
-                <div class="input-wrapper textarea-wrapper">
+                <span class="input-wrapper textarea-wrapper">
                   <textarea
                     class="textarea-field"
                     name="comment"
@@ -711,18 +713,18 @@
                       height="14"
                     ></use>
                   </svg>
-                </div>
+                </span>
               </label>
 
               <label class="checkbox">
                 <input type="checkbox" required />
                 <span class="custom-checkbox"></span>
-                <p class="privacy-policy-text">
+                <span class="privacy-policy-text">
                   I accept the terms and conditions of the
                   <a class="orange-part privacy-policy" href="#"
                     >Privacy Policy</a
                   >
-                </p>
+                </span>
               </label>
 
               <button type="submit" class="send-button">Send</button>
@@ -795,8 +797,8 @@
           </nav>
           <form action="#" class="subscribe-form">
             <input
-              class="subscribe-input"
-              type="mail"
+            
+              type="email"
               placeholder="Enter your email"
               class="subscribe-input request"
             />
