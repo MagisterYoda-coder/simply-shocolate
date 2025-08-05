@@ -1,0 +1,22 @@
+{
+  "name": "simply-shocolate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagisterYoda-coder/simply-shocolate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagisterYoda-coder/simply-shocolate/issues"
+  },
+  "homepage": "https://github.com/MagisterYoda-coder/simply-shocolate#readme",
+  "description": ""
+}
+
